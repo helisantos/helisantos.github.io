@@ -4,9 +4,12 @@
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 {{content}}
                 <p class="post-meta">Postado por <a href="#">{{page.author}}</a> - em {{page.date | date_to_string}}</p>
+                <aside class="sharing">
+                <div class="g-plusone" data-annotation="inline" data-width="300"></div>
+                </aside>
             </div> 
         </div>
     </div>

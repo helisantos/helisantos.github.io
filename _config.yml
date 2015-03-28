@@ -1,2 +1,5 @@
 markdown: redcarpet
-paginate: 4
+paginate: 10
+
+gems:
+ - helisantos.github.io-sitemap
